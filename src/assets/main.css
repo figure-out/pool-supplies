@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+#app {
+  margin: 0;
+  color: var(--color-text);
+  font-family: var(--font-family-main);
+}
+
+:root {
+  --font-family-logo: 'Roboto', sans-serif;
+  --font-family-main: 'Roboto', sans-serif;
+  --font-family-title: 'Roboto', sans-serif;
+  --color-brand: #301a4b;
+  --color-secondary: rgb(0 100 107);
+  --color-light: #fdfdfd;
+  --color-pink: #f39a9d;
+  --color-green: #3f6c51;
+  --color-text-light: #ffffff;
+  --color-text: #222;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family-title);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h2,
+h3 {
+  color: var(--color-secondary);
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.v-btn {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}

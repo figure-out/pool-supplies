@@ -1,0 +1,1 @@
+export const COMPANY_NAME = 'Aqua La Vista Pool Supplies'
