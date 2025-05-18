@@ -40,7 +40,6 @@ const handleAddClick = () => {
   const item = {
     ...props.product,
     quantity: quantityToAdd.value,
-    ƒ,
   };
   cartStore.addItem(item);
   toast.default(`${item.title} added to cart`);
