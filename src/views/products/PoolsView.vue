@@ -40,5 +40,13 @@ const products: Array<Product> = [
     unitPrice: 30000,
     image: '/pool-supplies/images/water-tanker-small-1.jpeg',
   },
+  {
+    sku: 'WATERPROOF_PAINT',
+    title: 'Waterproof paint',
+    description: 'Waterproof paint, specially formulated for pools. Comes in a 15 litre tub',
+    saleUnit: '15 L',
+    unitPrice: 12000,
+    image: '/pool-supplies/images/waterproof-paint-1.jpeg',
+  },
 ];
 </script>

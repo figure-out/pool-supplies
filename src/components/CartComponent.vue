@@ -57,8 +57,8 @@ const handleRemoveClick = (sku: string) => {
 .cart__preview {
   box-sizing: border-box;
   color: var(--color-text);
-  position: absolute;
-  right: 0rem;
+  position: fixed;
+  right: 0.5rem;
   top: 5rem;
   width: 100%;
   padding: 1rem;
